@@ -11,7 +11,7 @@ app.use("/api/v1/courses",couresRouter)
 
 
 async function main (){
-    await mongoose.connect("mongodb+srv://aditya:5QoZaHnDA3Pv6ltW@cluster0.qqyta.mongodb.net/broF-app")
+    await mongoose.connect("url")
     app.listen(3000);
     console.log("listen")
 }
